@@ -1,0 +1,71 @@
+Tech Companies Dragged Feet on Russian Interference Data, Reports Say
+Dec. 17, 2018
+Social media companies including Facebook were sometimes evasive and misrepresented themselves to lawmakers when it came to discussing Russian interference, according to two new reports.Elijah Nouvelage/Reuters
+
+
+Social media companies including Facebook were sometimes evasive and misrepresented themselves to lawmakers when it came to discussing Russian interference, according to two new reports.Elijah Nouvelage/Reuters
+SAN FRANCISCO — When lawmakers asked YouTube, a unit of Google, to provide information about Russian manipulation efforts, it did not disclose how many people watched the videos on its site that were created by Russian trolls.
+
+Facebook did not release the comments that its users made when they viewed Russian-generated content. And Twitter gave only scattered details about the Russian-controlled accounts that spread propaganda there.
+
+The tech companies’ foot-dragging was described in a pair of reports that the Senate Intelligence Committee published on Monday, in what were the most detailed accounts to date about how Russian agents have wielded social media against Americans in recent years.
+
+In the reports, Google, Twitter and Facebook (which also owns Instagram) were described by researchers as having “evaded” and “misrepresented” themselves and the extent of Russian activity on their sites. The companies were also criticized for not turning over complete sets of data about Russian manipulation to the Senate.
+
+The data they did provide “lacked core components that would have provided a fuller and more actionable picture,” said one of the reports, which was written by New Knowledge, a cybersecurity company, along with researchers at Columbia University and Canfield Research.
+
+The studies renewed questions about whether social media companies have withheld data on Russian activity and how willing they really are to address the issue. After facing scrutiny over the past two years for distributing inflammatory Russian-made propaganda to Americans, some of the companies — such as Facebook — have pledged more transparency.
+
+Yet Renee DiResta, director of research at New Knowledge, said that while cooperation with tech companies had improved over the last three years, there was still much more that the Silicon Valley giants could do to help researchers study Russian interference.
+
+“Everyone wants to qualify the impact of the 2016 presidential election. They want to understand, did it swing the election?” she said. “None of the data sets we were given gives us that answer.”
+
+The Russian interference campaign took particular aim at African-Americans.
+
+The Russian interference campaign took particular aim at African-Americans.
+The reports were especially critical of Google, whose YouTube site hosted 1,100 videos made by the Kremlin-backed Internet Research Agency. The reports said Google had not only provided incomplete information about these videos, but one report accused Kent Walker, the company’s chief legal officer, of giving misleading testimony to Congress this year about whether those videos were targeted at a particular audience.
+
+When compared with Facebook and Twitter, “Google’s data contribution was by far the most limited in context and least comprehensive of the three,” said one of the reports, by researchers at Oxford University and Graphika.
+
+Of the information that the companies did hand over, some came in formats that were difficult to analyze. Researchers said that in many cases, information was provided in duplicate and triplicate, or was incomplete or corrupted. That meant it took months just to catalog and clean up before it could be studied.
+
+In a statement, Nu Wexler, a Google spokesman, said, “We conducted an in-depth investigation across multiple product areas, and provided a detailed and thorough report to investigators.”
+
+Twitter said it was committed to transparency and had improved its work with researchers. “Our singular focus is to improve the health of the public conversation on our platform,” said Katie Rosborough, a spokeswoman.
+
+A spokesman for Facebook, Matt Steinfeld, said it “provided thousands of ads and pieces of content to the Senate Select Committee on Intelligence for review and shared information with the public about what we found.”
+
+On Monday in Washington, lawmakers lashed out at the tech companies for hiding the ball.
+
+“For many months we urged the social media companies to undertake such a crosscutting analysis without success, even as we made as much of their data as public as possible,” said Representative Adam Schiff, a Democrat from California. He said the companies’ reluctance to look deeply at Russian interference “made our task far more difficult than it should have been.”
+
+Senator Richard Burr, a Republican from North Carolina who is chairman of the Senate Intelligence Committee, said, “These reports are proof positive that one of the most important things we can do is increase information-sharing between the social media companies who can identify disinformation campaigns and the third-party experts who can analyze them.”
+
+Social media companies have been under fire for helping spread Russian disinformation. Facebook, Google and Twitter all initially played down or denied the Russian activity on their platforms. But over time, it became clear that Russia had used them to try to influence American voters.
+
+A still from a video posted on the “Backyard of the White House” YouTube channel, which one report linked to the Kremlin-backed Internet Research Agency.
+A still from a video posted on the “Backyard of the White House” YouTube channel, which one report linked to the Kremlin-backed Internet Research Agency.
+By October 2017, Facebook, Google and Twitter executives were testifying before Congress on the extent of Russian election interference. This April, Facebook’s chief executive, Mark Zuckerberg, testified, followed months later by his company’s chief operating officer, Sheryl Sandberg, as well as the Twitter chief executive Jack Dorsey. Sundar Pichai, Google’s chief executive, was grilled on Capitol Hill last week.
+
+All three companies have since acknowledged that the scope of Russian interference was broader than what they originally disclosed.
+
+The Senate Intelligence Committee first asked the companies to provide data on Russian manipulation in October 2017. In the year that followed, the committee repeated the request several times. Six months ago, after accumulating dribs and drabs of data from the tech companies, the committee gave the material to the independent researchers.
+
+The reports noted how the incomplete information had caused problems. Because Google did not provide any data on how many times Russian-created videos were watched or shared on YouTube, researchers were forced to search for the videos through alternative websites to re-create how widely the propaganda had been shared.
+
+Google’s data from 2014 to 2018 was “remarkably scarce,” the report from researchers at Oxford and Graphika said.
+
+Facebook’s failure to provide comments that users made about divisive Russian-created posts also made it difficult to gauge how the propaganda was received, the reports said. The company also had once said it received just “a few hundred thousand dollars of ads” from Russian actors, which the reports said was too dismissive. In fact, Russian agents spent “far more than the only $100,000 of Facebook ads,” said one report, and their impact was far greater.
+
+The top Facebook and Instagram accounts made by the Internet Research Agency ultimately gained hundreds of thousands of followers and generated millions of interactions. One Instagram account, @blackstagram_, published posts that were regularly liked by more than 10,000 people by 2017.
+
+Twitter provided the most extensive data, the researchers said, covering 2009 through 2018. That included account names and information that is not visible to other users, such as the internet protocol addresses, login dates and locations for 3,841 accounts, which produced more than eight million tweets. Four of the five most popular Russian-made Twitter accounts posted messages targeting African-Americans.
+
+“Twitter provided a vast corpus of detailed account information on the Twitter accounts the company knew were managed by I.R.A. staff,” the researchers wrote.
+
+Yet the Twitter data was also disorganized. The researchers said the company made it difficult for them to collect their own data through its site, and repeatedly failed to work with them to track Russian influence operations over the last two years.
+
+Subscribe for $1 a week. Ends soon.
+
+
+You have 4 free articles remaining.
