@@ -70,9 +70,11 @@ def readAll(location = 'sample files'):
 
 dic = readAll()
         
-    # Shannon's message
 
-# Preston's message
+
+    # Shannon's message
+    # comment random stuff Preston add's stuff
+
 
 
         
