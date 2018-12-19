@@ -69,11 +69,6 @@ def readAll(location = 'sample files'):
     return fileDic
 
 dic = readAll()
-        
-
-
-    # Shannon's message
-    # comment random stuff Preston add's stuff
 
 
 
