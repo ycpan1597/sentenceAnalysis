@@ -10,11 +10,18 @@ import numpy as np
 import os
 import re
 
+titles = ['Dr', 'Prof', 'Mr', 'Mrs', 'Ms', 'Sr', 'Jr', 'Rev', 'St']
+t = '('
+for item in titles:
+    t += item + ')('
+t = t[:-1]
+    
 class wordAnalysis:
+    
     def __init__(self, fileName, location = 'sample files/'):
         self.fileName = fileName
-        self.content = self.readFile(fileName, location)
-        self.wordsInSent, self.longSentences, self.avg, self.std = self.findWordsInSent(self.content)
+        self.rawContent = self.readFile(fileName, location)
+        self.wordsInSent, self.longSentences, self.avg, self.std = self.findWordsInSent(self.rawContent)
         
         plt.figure()
         plt.hist(self.wordsInSent, bins = np.arange(0, 35, 1))
@@ -35,18 +42,24 @@ class wordAnalysis:
         wordsInSent = [] #number of words in each sentence
         longSentences = []
         for oneP in content:
-            allS = re.split(r'\n', oneP)
-#            allS = oneP.split('. ')
+            oneP = oneP.replace('\t', '')
+            oneP = oneP.rstrip()
+            allS = re.split(r'(?:(?<!Dr)(?<!Prof)(?<!Sr)(?<!Jr)(?<!Mr)(?<!Mrs)(?<!Ms))[?.!] (?=[A-Z0-9"])', oneP)
             for oneS in allS:
-                curLength = len(oneS.split(' '))
+#                curLength = len(oneS.split(' '))
+                curLength = len(re.split(r'\s+', oneS))
                 wordsInSent.append(curLength)
                 longSentences.append(oneS)
-        for index, item in enumerate(wordsInSent):
-            if item <= threshLow:
-                wordsInSent.remove(item)
-                del longSentences[index]
+#        for index, item in enumerate(wordsInSent):
+#            if item <= threshLow:
+#                wordsInSent.remove(item)
+#                del longSentences[index]
         return wordsInSent, longSentences, round(sum(wordsInSent)/len(longSentences), 2), round(np.std(wordsInSent), 2)
-
+    
+    def printSentencesUnder(self, thresh = 3): 
+        for index, item in enumerate(self.wordsInSent):
+            if item <= thresh:
+                print(self.longSentences[index])
 plt.close('all')
 #reads all files in a directory and returns a dictionary of wordAnalysis objects
 def readAll(location = 'sample files'):
