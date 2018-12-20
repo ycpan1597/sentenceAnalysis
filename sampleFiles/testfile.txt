@@ -1,6 +1,3 @@
-	this is a tab.
-new
-line
-character
-Dr. Pan
-This is a regular sentence
+one sentence looks like this.
+
+The sentence just now had a line break, followed by another line break to come down to this line.

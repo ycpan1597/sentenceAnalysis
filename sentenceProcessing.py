@@ -42,19 +42,29 @@ class wordAnalysis:
         wordsInSent = [] #number of words in each sentence
         longSentences = []
         for oneP in content:
-            oneP = oneP.replace('\t', ' ')
+            oneP = oneP.replace('\t', '')
             oneP = oneP.rstrip()
-            allS = re.split(r'(?:(?<!Dr)(?<!Prof)(?<!Sr)(?<!Jr)(?<!Mr)(?<!Mrs)(?<!Ms))[?.!] (?=[A-Z0-9"])', oneP)
+#            oneP = oneP.replace('\n', '')
+            allS = re.split(r'(?:(?<!Dr)(?<!Prof)(?<!Sr)(?<!Jr)(?<!Mr)(?<!Mrs)(?<!Ms))[?.!]\s\"*(?=[A-Z0-9"])', oneP)
             for oneS in allS:
 #                curLength = len(oneS.split(' '))
                 curLength = len(re.split(r'\s+', oneS))
                 wordsInSent.append(curLength)
                 longSentences.append(oneS)
-#        for index, item in enumerate(wordsInSent):
-#            if item <= threshLow:
-#                wordsInSent.remove(item)
-#                del longSentences[index]
+            for index, item in enumerate(longSentences):
+                if item == '':
+                    del longSentences[index]
+                    del wordsInSent[index]
         return wordsInSent, longSentences, round(sum(wordsInSent)/len(longSentences), 2), round(np.std(wordsInSent), 2)
+    
+    """
+    current issue: 
+        1) Sentence fragments (without a period at the end) should be ignored
+        2) Date - Nov. 13 is cut into two separate phrases
+        3 - 1) Quotation mark: ". . . sentence finishes." new sentence --> Currently treated as one
+        3 - 2) Quotation mark: sentence finishes. "New sentence. . . " --> currently treated as one too
+    """
+    
     
     def printSentencesUnder(self, thresh = 3): 
         for index, item in enumerate(self.wordsInSent):
@@ -65,11 +75,13 @@ plt.close('all')
 def readAll(location = 'sampleFiles'):
     fileDic = {}
     for oneFileName in os.listdir(location):
+#        print(oneFileName)
         fileDic[oneFileName] = wordAnalysis(oneFileName)
     return fileDic
 
-dic = readAll()
-test = wordAnalysis("testfile.txt")
+#dic = readAll()
+sample105 = wordAnalysis('sample105.txt')
+test = wordAnalysis('testfile.txt')
 
 
 
