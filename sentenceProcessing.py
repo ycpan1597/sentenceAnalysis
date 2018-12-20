@@ -18,7 +18,7 @@ t = t[:-1]
     
 class wordAnalysis:
     
-    def __init__(self, fileName, location = 'sample files/'):
+    def __init__(self, fileName, location = 'sampleFiles/'):
         self.fileName = fileName
         self.rawContent = self.readFile(fileName, location)
         self.wordsInSent, self.longSentences, self.avg, self.std = self.findWordsInSent(self.rawContent)
@@ -62,7 +62,7 @@ class wordAnalysis:
                 print(self.longSentences[index])
 plt.close('all')
 #reads all files in a directory and returns a dictionary of wordAnalysis objects
-def readAll(location = 'sample files'):
+def readAll(location = 'sampleFiles'):
     fileDic = {}
     for oneFileName in os.listdir(location):
         fileDic[oneFileName] = wordAnalysis(oneFileName)
