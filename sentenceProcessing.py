@@ -62,11 +62,11 @@ class wordAnalysis:
                 print(self.longSentences[index])
 plt.close('all')
 #reads all files in a directory and returns a dictionary of wordAnalysis objects
-#def readAll(location = 'sample files'):
-#    fileDic = {}
-#    for oneFileName in os.listdir(location):
-#        fileDic[oneFileName] = wordAnalysis(oneFileName)
-#    return fileDic
+def readAll(location = 'sample files'):
+    fileDic = {}
+    for oneFileName in os.listdir(location):
+        fileDic[oneFileName] = wordAnalysis(oneFileName)
+    return fileDic
 
 dic = readAll()
 
