@@ -42,7 +42,7 @@ class wordAnalysis:
         wordsInSent = [] #number of words in each sentence
         longSentences = []
         for oneP in content:
-            oneP = oneP.replace('\t', '')
+            oneP = oneP.replace('\t', ' ')
             oneP = oneP.rstrip()
             allS = re.split(r'(?:(?<!Dr)(?<!Prof)(?<!Sr)(?<!Jr)(?<!Mr)(?<!Mrs)(?<!Ms))[?.!] (?=[A-Z0-9"])', oneP)
             for oneS in allS:
@@ -69,6 +69,7 @@ def readAll(location = 'sampleFiles'):
     return fileDic
 
 dic = readAll()
+test = wordAnalysis("testfile.txt")
 
 
 

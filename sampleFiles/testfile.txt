@@ -1,0 +1,6 @@
+	this is a tab.
+new
+line
+character
+Dr. Pan
+This is a regular sentence
