@@ -1,3 +1,9 @@
-one sentence looks like this.
+The following sentences all have line breaks.
+My name is Preston Pan. 
+These sentences retain their periods at the end. 
 
-The sentence just now had a line break, followed by another line break to come down to this line.
+Once sentences are strung together w/o a linebreak, then sentences lose their end-of-line punctuations using this split method. For example, notice the previous sentence did not have a period once split. Mr. Pan and Ms. Pang are currently dating. Prof. Steele is my PI. Stuff
+
+Starting with a title makes it a non-sentence..? 
+
+She said, "This should be a sentence." Notice that the previous sentence lost its end quotation mark. should phrases that begin with a lowercase letter be counted as a sentence too? 
